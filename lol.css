@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 20%;
+  background-color: #f0f0f0;
+}
+
+.big-text {
+  font-size: 10em;
+  color: red; /* Start color */
+  animation: color-change 2s infinite alternate; /* Animation for color change */
+}
+
+@keyframes color-change {
+  0% { color: red; }
+  100% { color: blue; } /* End color */
+}
+
+p {
+  font-family: monospace;
+  font-size: 3em;
+}
