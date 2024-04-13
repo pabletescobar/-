@@ -8,6 +8,7 @@ body {
 .big-text {
   font-size: 10em;
   color: red; /* Start color */
+  font-family: "Comic Sans MS". cursive
   animation: color-change 2s infinite alternate; /* Animation for color change */
 }
 
@@ -17,6 +18,6 @@ body {
 }
 
 p {
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: monospace;
   font-size: 3em;
 }
